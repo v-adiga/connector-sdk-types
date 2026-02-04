@@ -1,5 +1,5 @@
 {
-    "name": "@adobe/ccweb-connector-sdk-types",
+    "name": "@v-adiga/ccweb-connector-sdk-types",
     "version": "1.0.0",
     "author": "Adobe",
     "license": "MIT",
@@ -15,11 +15,20 @@
     ],
     "main": "",
     "exports": {
-        ".": "./connector-sdk.d.ts"
+        ".": "./index.d.ts",
+        "./translate": "./translate/translate-sdk.d.ts"
     },
-    "types": "connector-sdk.d.ts",
+    "typesVersions": {
+        "*": {
+            "translate": [
+                "./translate/translate-sdk.d.ts"
+            ]
+        }
+    },
+    "types": "index.d.ts",
     "repository": {
-        "url": "https://github.com/adobe/ccweb-connector-sdk-types"
+        "type": "git",
+        "url": "git+https://github.com/v-adiga/connector-sdk-types.git"
     },
     "scripts": {
         "clean": "",
