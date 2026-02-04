@@ -23,6 +23,32 @@
  ********************************************************************************/
 
 /**
+ * Represents a locale supported by the translation service.
+ * @public
+ */
+export declare type Locale = {
+    /**
+     * The IETF language tag for the locale (e.g. "en-US", "fr-FR").
+     */
+    code: string;
+    /**
+     * The human-readable label for the locale.
+     */
+    label: string;
+};
+
+/**
+ * Response structure for fetching supported locales.
+ * @public
+ */
+export declare type LocalesResponse = {
+    /**
+     * The list of supported locales.
+     */
+    locales: Locale[];
+};
+
+/**
  * Defines the tone of the translation.
  * @public
  */
@@ -79,11 +105,11 @@ export declare type TranslationRequest = {
     /**
      * The source locale code.
      */
-    sourceLocale: string;
+    sourceLocale: Locale["code"];
     /**
      * List of target locale codes to translate into.
      */
-    targetLocales: string[];
+    targetLocales: Locale["code"][];
     /**
      * List of items containing messages to translate.
      */
