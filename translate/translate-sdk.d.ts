@@ -91,7 +91,7 @@ export declare type TranslationRequest = {
     /**
      * Optional requested tone for the translation.
      */
-    tone?: Tone;
+    tone: Tone;
 };
 
 /**

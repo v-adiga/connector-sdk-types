@@ -10,6 +10,6 @@ This package exports type definitions for the Adobe Creative Cloud Connector SDK
 
 ## Usage Notes
 
-This package contains Connector SDK type definitions. However, in itself this package is unusable.  You must install [@types/adobe\_\_ccweb-connector-sdk](https://www.npmjs.com/package/@types/adobe__ccweb-connector-sdk) instead, to use the Connector SDK type definitions in your Connector services.
+This package contains Connector SDK type definitions. You must install [@adobe/ccweb-connector-sdk-types](https://www.npmjs.com/package/@v-adiga/ccweb-connector-sdk-types/access) to use the Connector SDK type definitions in your Connector services.
 
 For more information about developing Adobe Express connectors, check out the [documentation](https://developer.adobe.com/express/connectors/).
