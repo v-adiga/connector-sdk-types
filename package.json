@@ -1,0 +1,33 @@
+{
+    "name": "@adobe/ccweb-connector-sdk-types",
+    "version": "1.0.0",
+    "author": "Adobe",
+    "license": "MIT",
+    "description": "Type definitions for Adobe Creative Cloud Web Connector SDK.",
+    "keywords": [
+        "adobe",
+        "creative cloud web",
+        "express",
+        "connector",
+        "typescript",
+        "sdk",
+        "typings"
+    ],
+    "main": "",
+    "exports": {
+        ".": "./connector-sdk.d.ts"
+    },
+    "types": "connector-sdk.d.ts",
+    "repository": {
+        "url": "https://github.com/adobe/ccweb-connector-sdk-types"
+    },
+    "scripts": {
+        "clean": "",
+        "ibuild": "",
+        "build": "",
+        "build:release": "",
+        "test": "",
+        "_phase:build": "",
+        "_phase:build-release": ""
+    }
+}
