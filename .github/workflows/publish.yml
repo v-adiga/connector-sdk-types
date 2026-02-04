@@ -25,7 +25,6 @@ jobs:
           node-version: '24'
           registry-url: 'https://registry.npmjs.org'
           scope: 'v-adiga'
-          cache: 'npm'
 
       - name: Publish to npm
         run: npm publish --access public
