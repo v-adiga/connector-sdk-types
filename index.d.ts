@@ -22,4 +22,4 @@
  * SOFTWARE.
  ********************************************************************************/
 
-export * from "./connectors/translate-connector-sdk.js";
+export * from "./connectors/translate-connector-sdk";

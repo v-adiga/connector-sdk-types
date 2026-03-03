@@ -1,5 +1,5 @@
 {
-    "name": "@v-adiga/translate-connector-sdk",
+    "name": "@v-adiga/ccweb-connector-sdk-types",
     "version": "1.0.5",
     "author": "Adobe",
     "license": "MIT",
@@ -15,12 +15,14 @@
     ],
     "main": "",
     "exports": {
-        ".": "./index.d.ts"
+        ".": {
+            "types": "./index.d.ts"
+        }
     },
     "types": "index.d.ts",
     "files": [
         "index.d.ts",
-        "translate-connector-sdk.d.ts"
+        "connectors/*.d.ts"
     ],
     "scripts": {
         "clean": "",
